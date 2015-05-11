@@ -1,0 +1,49 @@
+/*Content */
+
+
+.customer {
+	padding-top: 0px;
+	font-style: uppercase;
+}
+
+#form {
+	color: #020333;
+	width: 500px;
+    margin-top: 30px;
+}
+
+#form input {
+	margin-bottom: 20px;
+	width: 400px;
+	border-radius: 2px;
+}
+
+
+#form2 input label {
+	margin-bottom: 8px;
+}
+
+
+
+.create {
+	height: 50px;
+	width: 405px;
+	background-color: #020333;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+}
+
+.content {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+#error {
+	color: red;
+}
+
+
+/*end*/
+

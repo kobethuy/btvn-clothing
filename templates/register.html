@@ -1,0 +1,67 @@
+﻿{% include 'templates/header.html' %}
+
+<link rel="stylesheet" type="text/css" href="css/register.css">
+
+{% include 'templates/navbar.html' %}
+<br><br><br><br>
+<div id="container">
+    <center>        
+    <h1 class="customer">
+        <br>
+        <br>
+        NEW CUSTOMER
+    </h1>
+
+    <div id="error">
+        {{ Error }}
+    </div>
+
+    <p>
+    By creating an account in our store, you will be able to move 
+    <br>
+    through the checkout process faster, store multiple adresses,
+    <br>
+    view and track your orders, and more.
+    </p>
+
+    <div id="form">
+        <form method="post" action"/register">
+            First name:
+        <br>
+             
+        <br>
+        <input type="text" name="firstname">
+        <br>
+        Last name:
+        <br>
+             
+        <br>
+        <input type="text" name="lastname">
+        <br>
+        E-mail:
+        <br>
+         
+        <br>
+        <input type="text" name="email">
+        <br>
+        Password:
+        <br>
+         
+        <br>
+        <input type="password" name="password">
+        <br>
+        Confirm Password:
+        <br>
+         
+        <br>
+        <input type="password" name="passwordcheck">
+
+        <br>
+        <input class="create" type="submit" value="Create Account">
+        </form>
+    </div>
+
+   
+    </center>     
+</div>
+{% include 'templates/footer.html' %}

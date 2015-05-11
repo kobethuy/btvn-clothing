@@ -1,0 +1,31 @@
+body {
+	margin:80px 80px 80px 80px;
+}
+
+div.img {
+    margin: 30px;
+    height: auto;
+    width: auto;
+    float:left;
+    text-align: center;
+	padding-left:30px;
+}	
+
+div.img img {
+    display: inline;
+	height: 300px;
+	width:300px;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom:40px;
+}
+h1{clear:both;}
+h1 a:link{
+	color:#996600;
+	text-decoration:none;}
+h1 a:visited{
+	color:#996600;
+	text-decoration:none;}	

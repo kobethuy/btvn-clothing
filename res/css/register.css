@@ -1,0 +1,43 @@
+/*Content */
+
+#container {
+	height: 925px;
+}
+
+.customer {
+	padding-top: 0px;
+	font-style: uppercase;
+}
+
+#form {
+	color: #020333;
+	width: 500px;
+    margin-top: 30px;
+}
+
+#form input {
+	margin-bottom: 20px;
+	width: 400px;
+	border-radius: 5px;
+}
+
+
+#form2 input label {
+	margin-bottom: 8px;
+}
+
+.create {
+	height: 50px;
+	width: 405px;
+	background-color: #020333;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+}
+
+#error {
+	color: red;
+}
+
+/*end*/
+

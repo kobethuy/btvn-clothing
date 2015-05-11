@@ -1,0 +1,27 @@
+application: btvn-clothing
+version: main
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: res/css
+
+- url: /img
+  static_dir: res/img
+
+- url: /js
+  static_dir: res/js
+
+- url: /fonts
+  static_dir: res/css/fonts
+
+- url: /.*
+  script: main.app 
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest

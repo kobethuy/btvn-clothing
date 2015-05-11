@@ -1,0 +1,37 @@
+{% include 'templates/header.html' %}
+
+<link rel="stylesheet" type="text/css" href="css/detail.css">
+<script src="js/jquery-1.8.3.min.js" type="text/javascript" ></script> 
+<script src="js/jquery.elevatezoom.js" type="text/javascript"></script>
+<script src="js/jquery.elevateZoom-3.0.8.min.js" type="text/javascript"></script>
+
+{% include 'templates/navbar.html' %}
+
+<br><br><br><br><br><br><br><br>
+<div id="detailpic">
+	<img id="pzoom" src="img/p2.png" data-zoom-image="img/p2.png" alt="Product 2">
+	<script>
+		$("#pzoom").elevateZoom({
+			zoomWindowWidth:250,
+			zoomWindowHeight:250
+		});
+	</script>
+</div>
+<div id="details">
+	<div id="name">Pocket Full of Soots</div>
+	<div id="price">150.000 VND</div>
+	<div id="sizeselection">
+		<p>Select size</p>
+		<form id="sizes" action="">
+			<input class="quantity" type="number" name="size" min="0" max="10" value="XS">&nbsp;&nbsp;Extra Small</br>
+			<input class="quantity" type="number" name="size" min="0" max="10" value="S">&nbsp;&nbsp;Small</br>
+			<input class="quantity" type="number" name="size" min="0" max="10" value="M">&nbsp;&nbsp;Medium</br>
+			<input class="quantity" type="number" name="size" min="0" max="10" value="L">&nbsp;&nbsp;Large</br>
+			<input class="quantity" type="number" name="size" min="0" max="10" value="XL">&nbsp;&nbsp;Extra Large</br>
+			<input class="quantity" type="number" name="size" min="0" max="10" value="XXL">&nbsp;&nbsp;Extra Extra Large</br>
+		</form>
+		<div id="add"><a href="">Add to cart</a></div>
+	</div>
+</div>
+
+{% include 'templates/footer.html' %}

@@ -1,0 +1,105 @@
+{% include "templates/header.html" %}
+
+<link rel="stylesheet" type="text/css" href="css/cart.css">
+
+{% include "templates/navbar.html" %}
+<br><br><br><br><br><br><br><br>
+<div id="container">
+   <h1 id="cart">Shopping cart</h1>
+   <div id="content">
+      <table id="table">
+         <tr>
+            <th>Description</th>
+            <th>Delivery options</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+         </tr>
+         <tr>
+            <td id="description">
+               <a>Nike Air Max 90's man</a> <br> <br>
+               <img src="img/airmax.jpeg" alt="airmaxpicture">
+               <p>Product # : 2093920</p>
+               <p>Size : 9.5 US</p>
+               <p>Color : Red</p>
+            </td>
+            <td id="Options">
+               <input type="radio" name="x" value="un" checked > Store pickup - <span style="color:Red">Free</span> 
+               <span style="font-size:10px;"><a href="">(Select a store)</a></span>
+               <br> 
+               <br>	
+               <input type="radio" name="x" value="un" checked > Ship to home
+            </td>
+            <td>
+               <FORM>
+                  <SELECT name="quantity" size="1">
+                     <OPTION>1
+                     <OPTION>2
+                     <OPTION>3
+                     <OPTION>4
+                     <OPTION>5
+                  </SELECT>
+               </FORM>
+               <a href="">Update</a> <br>
+               <a href="">Remove</a> <br>
+               <a href="">Move to my Wishlist</a>
+            </td>
+            <td>
+               Price: <br>
+               $109.99
+            </td>
+            <td>$109.99</td>
+         </tr>
+         <tr>
+            <td colspan="2">
+               <h4>Estimate Handling, shipping and savings (optionnal)</h4>
+               <br>
+               <FORM>
+                  1. Select your country : 
+                  <SELECT name="country" size="1">
+                     <OPTION>United states
+                     <OPTION>Vietnam
+                     <OPTION>France
+                     <OPTION>Germany
+                     <OPTION>Japan
+                  </SELECT>
+                  <br> <br> 
+                  2. Enter zip code: <input type="text" /> 
+                  <br> <br> 
+                  3. Select service for home delivery : 
+                  <SELECT name="delivery" size="1">
+                     <OPTION>US postal (5-6 business days)
+                     <OPTION>Chronopost (48 hours)
+                  </SELECT>
+                  <br> <br> 
+                  4. Promotionnal/Coupon code: 
+                  <input type="text" /> 
+                  <br> <br> 
+               </FORM>
+               <input class="create" type="submit" value="Calculate">
+            </td>
+            <td id="resume" colspan="3">
+               <p>Subtotal: $109.99</p>
+               <p>Estimated shipping: TBD</p>
+               <p style="color:red">Estimated savings: TBD</p>
+               <br> <br>
+               <p>Estimated Total: $109.99</p>
+            </td>
+         </tr>
+      </table>
+      <div id="buttons">
+         <ul id="checkout">
+            <li>
+               <a href=""><img src="img/paypal.png" alt="paypalbutton"></a>
+            </li>
+            <li>
+               <input class="checkout" type="submit" value="Continue shopping">
+            </li>
+            <li>
+               <input class="checkout" type="submit" value="Continue to Checkout">
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+{% include "templates/footer.html" %}

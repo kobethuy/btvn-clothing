@@ -1,0 +1,106 @@
+#container {
+
+	height: 950px;
+}
+
+#category {
+	padding-left:50px;
+	width:75%;
+	float:left;
+}
+div.img {
+    margin: 30px;
+    height: auto;
+    width: auto;
+    float:left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+	height: 220px;
+	width:220px;
+}	
+
+div.desc {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+h1 {
+	clear:both;
+	font-weight:bold;
+}
+
+h1 a:link{
+	color:#996600;
+	text-decoration:none;
+}
+
+h1 a:visited{
+	color:#996600;
+	text-decoration:none;
+}
+	
+.more {
+	padding-top:220px;
+	font-weight:bold;
+}
+
+.more a:link{
+	color:black;
+	text-decoration:none;}
+	
+.more a:visited{
+	color:black;
+	text-decoration:none;}
+	
+.more a:hover{
+	color:black;
+	text-decoration:underline;}
+	
+#sidebar {
+	position: fixed;
+	right: 0;
+	height: 550px;
+	float: right;
+	background:#E4E4E4;
+	width: 22.5%;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+
+#sidebar h2{
+	text-indent:20px;
+	padding-top:5px;
+}
+
+#separator {
+	height:10px;
+	background:red;
+}
+
+.item.active img,
+.item img {
+	width:135px;
+	height: 135px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.left.carousel-control,
+.right.carousel-control,
+.glyphicon.glyphicon-chevron-left, 
+.glyphicon.glyphicon-chevron-right{
+    background-image:none !important;
+	color:black;
+}
+	
+#pages {
+	width:3%;
+	bottom:30px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}

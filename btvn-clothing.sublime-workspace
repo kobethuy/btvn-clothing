@@ -1,0 +1,214 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 5521,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Git: Init"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kobethuy/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/kobethuy/Desktop/btvn-clothing/res/css/cart.css",
+		"/Users/kobethuy/Downloads/Basket/cart.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/navbar.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/res/css/login.css",
+		"/Users/kobethuy/Desktop/btvn-clothing/res/css/register.css",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/register.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/login.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/error.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/models.py",
+		"/Users/kobethuy/Desktop/btvn-clothing/res/css/search.css",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/search.html",
+		"/Users/kobethuy/Downloads/f.txt.js",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/policy.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/header.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/res/css/product.css",
+		"/Users/kobethuy/Desktop/btvn-clothing/res/css/policy.css",
+		"/Users/kobethuy/Desktop/btvn-clothing/res/css/detail.css",
+		"/Users/kobethuy/Downloads/general.html",
+		"/Users/kobethuy/Downloads/General.css",
+		"/Users/kobethuy/Desktop/btvn-clothing/res/css/homepage.css",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/footer.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/index.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/templates/details.html",
+		"/Users/kobethuy/Downloads/details.html",
+		"/Users/kobethuy/Desktop/btvn-clothing/app.yaml"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"settings":
+					{
+						"buffer_size": 5521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/kobethuy/Desktop/btvn-clothing/templates/login.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

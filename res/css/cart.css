@@ -1,0 +1,94 @@
+#container {
+	height: 928px;
+	width:100%;
+}
+
+/*CONTENT*/
+
+#content {  
+	padding: 0; 
+	margin: 0; 
+} 
+
+#cart {
+	margin-bottom: 40px;	
+	margin-left: 135px;	
+	color: #020333;
+}
+
+table { 
+	margin: 10px auto auto auto;
+	width: 1000px; 
+	border: 2px
+} 
+
+td {
+	border: 1px solid grey;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+
+input {
+	margin-left: 14px;
+	margin-bottom: 18px;
+}
+
+h4 {
+	margin-left: 14px;
+}
+
+form {
+	margin-left: 14px;
+}
+
+#description img
+{
+	width: 140px;
+	height: 100px;
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+#description p {
+	font-size: 13px;
+}
+
+#options {
+	margin-left: 5px;
+}
+
+.create {
+	height: 30px;
+	width: 80px;
+	background-color: #020333;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+}
+
+#resume p {
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+#checkout li {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#buttons ul {
+	margin-left: 660px;
+}
+
+#buttons input {
+	background-color: #020333;
+	color: white;
+	border-radius: 5px;
+}
+
+
+/*END*/

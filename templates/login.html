@@ -1,0 +1,43 @@
+{% include 'templates/header.html' %}
+
+<link rel="stylesheet" type="text/css" href="css/login.css">
+
+{% include 'templates/navbar.html' %}
+<center>
+<div class="content">
+
+	<h1 class="customer">
+		<br><br>LOGIN
+	</h1>
+	<div id="error">
+		{{ Error }}
+	</div>
+	<div id="form">
+
+		<form method="post" action="/login">E-mail:
+			<br> 
+			<br>
+			<input type="text" name="username">
+			<br>
+			Password:
+			<br>
+			<br>
+			<input type="password" name="password">
+			<br>
+			<div class="checkbox">
+				<input type="checkbox" name="remember" value="check">
+				Remember me
+			</div>
+			<input class="create" type="submit" value="Login">
+		</form>
+	</div>
+	<br>
+	<p>You don't have an account? 
+		<span>
+			<a href="register.html">Let's register</a>
+		</span>
+	</p>
+	
+</div>
+</center>
+{% include 'templates/footer.html' %}

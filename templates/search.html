@@ -1,0 +1,22 @@
+{% include 'templates/header.html' %}
+
+<link rel="stylesheet" type="text/css" href="css/search.css">
+
+{% include 'templates/navbar.html' %}
+<br><br><br><br><br><br><br><br><br>
+<div id="content">
+	<script>
+	  (function() {
+	    var cx = '014307565304738088979:gd7xk4xkdai';
+	    var gcse = document.createElement('script');
+	    gcse.type = 'text/javascript';
+	    gcse.async = true;
+	    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+	        '//cse.google.com/cse.js?cx=' + cx;
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.insertBefore(gcse, s);
+	  })();
+	</script>
+	<gcse:searchresults-only></gcse:searchresults-only>
+</div>
+{% include 'templates/footer.html' %}
