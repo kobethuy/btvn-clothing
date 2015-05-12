@@ -23,7 +23,7 @@
 			"file": "main.py",
 			"settings":
 			{
-				"buffer_size": 5521,
+				"buffer_size": 5524,
 				"line_ending": "Windows"
 			}
 		}
@@ -36,7 +36,7 @@
 		[
 			[
 				"",
-				"Git: Init"
+				"Git: Push Current Branch"
 			]
 		],
 		"width": 449.0
@@ -56,6 +56,9 @@
 	},
 	"file_history":
 	[
+		"/Users/kobethuy/Library/Application Support/Sublime Text 2/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/Users/kobethuy/Library/Application Support/Sublime Text 2/Packages/User/SublimeGit.sublime-settings",
+		"/Users/kobethuy/Desktop/btvn-clothing/.git/config",
 		"/Users/kobethuy/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/kobethuy/Desktop/btvn-clothing/res/css/cart.css",
 		"/Users/kobethuy/Downloads/Basket/cart.html",
@@ -124,15 +127,15 @@
 					"file": "main.py",
 					"settings":
 					{
-						"buffer_size": 5521,
+						"buffer_size": 5524,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								559,
-								559
+								4999,
+								4999
 							]
 						],
 						"settings":
@@ -141,7 +144,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2439.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -180,6 +183,22 @@
 		]
 	},
 	"menu_visible": true,
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-init":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 0.0

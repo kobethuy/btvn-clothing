@@ -152,7 +152,7 @@ class Register(BaseHandler):
 		user_id = user.get_id()
 
 		token = self.user_model.create_signup_token(user_id)
-		"""self.redirect('/')"""
+		self.redirect('/')
 		
 class Policy(webapp2.RequestHandler):
 	def get(self):
@@ -198,9 +198,7 @@ class Cart(webapp2.RequestHandler):
 		}
 
 		template = JINJA_ENVIRONMENT.get_template('templates/cart.html')
-		self.response.write(template.render(template_values))
-		
-		
+		self.response.write(template.render(template_values))	
 		
 app = webapp2.WSGIApplication([
     ('/', Index),

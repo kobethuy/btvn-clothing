@@ -1,0 +1,16 @@
+[INFO     2015-05-12 10:08:14,260 bulkloader.py] Logging to bulkloader-log-20150512.100814
+[INFO     2015-05-12 10:08:14,260 bulkloader.py] Throttling transfers:
+[INFO     2015-05-12 10:08:14,260 bulkloader.py] Bandwidth: 250000 bytes/second
+[INFO     2015-05-12 10:08:14,261 bulkloader.py] HTTP connections: 8/second
+[INFO     2015-05-12 10:08:14,261 bulkloader.py] Entities inserted/fetched/modified: 20/second
+[INFO     2015-05-12 10:08:14,261 bulkloader.py] Batch Size: 10
+[INFO     2015-05-12 10:08:14,263 bulkloader.py] Opening database: bulkloader-progress-20150512.100814.sql3
+[DEBUG    2015-05-12 10:08:14,276 bulkloader.py] [Thread-1] RestoreThread: started
+[ERROR    2015-05-12 10:08:14,277 bulkloader.py] [Thread-1] RestoreThread:
+Traceback (most recent call last):
+  File "/Users/kobethuy/Desktop/GoogleAppEngineLauncher.app/Contents/Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine/google/appengine/tools/bulkloader.py", line 1611, in run
+    self.PerformWork()
+  File "/Users/kobethuy/Desktop/GoogleAppEngineLauncher.app/Contents/Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine/google/appengine/tools/bulkloader.py", line 2895, in PerformWork
+    cursor.execute('select id, value from result')
+DatabaseError: file is encrypted or is not a database
+[DEBUG    2015-05-12 10:08:14,279 bulkloader.py] [Thread-1] RestoreThread: exiting
