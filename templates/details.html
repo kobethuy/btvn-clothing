@@ -9,7 +9,7 @@
 
 <br><br><br><br><br><br><br><br>
 <div id="detailpic">
-	<img id="pzoom" src="img/p2.png" data-zoom-image="img/p2.png" alt="Product 2">
+	<img id="pzoom" src="img/{{ Img_link }}" data-zoom-image="img/{{ Img_link }}" alt="Product 2">
 	<script>
 		$("#pzoom").elevateZoom({
 			zoomWindowWidth:250,
@@ -18,8 +18,8 @@
 	</script>
 </div>
 <div id="details">
-	<div id="name">Pocket Full of Soots</div>
-	<div id="price">150.000 VND</div>
+	<div id="name">{{ Product_name }}</div>
+	<div id="price">{{ Price }} VND</div>
 	<div id="sizeselection">
 		<p>Select size</p>
 		<form id="sizes" action="">
@@ -30,7 +30,7 @@
 			<input class="quantity" type="number" name="size" min="0" max="10" value="XL">&nbsp;&nbsp;Extra Large</br>
 			<input class="quantity" type="number" name="size" min="0" max="10" value="XXL">&nbsp;&nbsp;Extra Extra Large</br>
 		</form>
-		<div id="add"><a href="">Add to cart</a></div>
+		<div id="add"><a href="/cart">Add to cart</a></div>
 	</div>
 </div>
 

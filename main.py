@@ -1,10 +1,9 @@
-import jinja2, os, sys, webapp2
+import jinja2, os, sys, webapp2, csv
 from webapp2_extras import auth
 from webapp2_extras import sessions
 
 from webapp2_extras.auth import InvalidAuthIdError
 from webapp2_extras.auth import InvalidPasswordError
-
 
 config = {
   'webapp2_extras.auth': {
@@ -78,13 +77,28 @@ class BaseHandler(webapp2.RequestHandler):
 			self.session_store.save_sessions(self.response)
 
 class Index(webapp2.RequestHandler):
+
 	def get(self):
+
+		f = open("productsdatabase.csv")
+		content = csv.reader(f)
+		ghibli = []
+		titan = []
+
 		title = "Home"
-		
+
+		for bar in content:
+			if "Ghibli" in bar[1]:
+				ghibli.append(bar)
+			else:
+				titan.append(bar)
+		f.close()
 		template_values = {
 			'Title': title,
-
+			'ghibli': ghibli,
+			'titan': titan,
 		}
+
 		template = JINJA_ENVIRONMENT.get_template('templates/products.html')
 		self.response.write(template.render(template_values))
 		
@@ -165,11 +179,34 @@ class Policy(webapp2.RequestHandler):
 		self.response.write(template.render(template_values))
 
 class Details(webapp2.RequestHandler):
+
 	def get(self):
+
+		f = open("productsdatabase.csv")
+
+		content = csv.reader(f)
+
+		name = ""
+		price = ""
+		url = ""
 		title = "Details"
+
+		product = self.request.get('p')
+
+		for a in content:
+			print "Query:"
+			print a
+			if product == a[0]:
+				name = a[2]
+				price = a[4]
+				url = a[3]
+		f.close()
 
 		template_values = {
 			'Title': title,
+			'Product_name': name,
+			'Price': price,
+			'Img_link': url,
 		}
 		template = JINJA_ENVIRONMENT.get_template('templates/details.html')
 		self.response.write(template.render(template_values))
@@ -177,7 +214,7 @@ class Details(webapp2.RequestHandler):
 class Search(webapp2.RequestHandler):
 	def get(self):
 
-		title = "Details"
+		title = "Search"
 
 		query = self.request.get('q').replace(" ", "+")
 
@@ -198,11 +235,24 @@ class Cart(webapp2.RequestHandler):
 		}
 
 		template = JINJA_ENVIRONMENT.get_template('templates/cart.html')
-		self.response.write(template.render(template_values))	
-		
+		self.response.write(template.render(template_values))
+
+class About(webapp2.RequestHandler):
+	def get(self):
+
+		title = "About"
+
+		template_values = {
+			'Title': title,
+		}
+
+		template = JINJA_ENVIRONMENT.get_template('templates/about.html')
+		self.response.write(template.render(template_values))
+
 app = webapp2.WSGIApplication([
     ('/', Index),
 	('/details', Details),
+	('/about', About),
 	('/cart', Cart),
 	('/search', Search),
 	('/login', Login),
